@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def add(a, b):
-    print(add(2, 4))
+    print('The sum is:', add(2, 4))
