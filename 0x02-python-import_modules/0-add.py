@@ -2,7 +2,8 @@
 from add_0 import add
 
 
-def add(a, b):
-    a = 1
-    b = 2
-    print('{:d} + {:d}'.format(a, b, add(a, b)))
+if __name__ == "__main__":
+    def add(a, b):
+        a = 1
+        b = 2
+        print('{:d} + {:d}'.format(a, b, add(a, b)))
