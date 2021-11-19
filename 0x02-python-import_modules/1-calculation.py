@@ -3,7 +3,6 @@ from calculator_1 import sub, add, mul, div
 
 
 if __name__ == "__main__":
-    def sub(a, b):
         a = 10
         b = 5
         print('{:d} - {:d}'.format(a, b, sub(a, b)))
