@@ -7,7 +7,6 @@ if __name__ == '__main__':
     ln = len(result)
     sum = 0
 
-    if ln > 1:
-        for n in range(1, ln):
-            sum = sum + int(result[n])
-            print(sum)
+    for n in range(ln - 1):
+        sum = sum + int(result[n + 1])
+        print('{:d}'.format(sum))
