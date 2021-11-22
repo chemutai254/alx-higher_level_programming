@@ -1,8 +1,13 @@
 #!/usr/bin/python3
-def sum(*args):
-    result = 0
+import sys
 
-    for arg in args:
-        result = int(result + arg)
 
-        return result
+if __name__ == '__main__':
+    result = sys.argv
+    ln = len(result)
+    sum = 0
+
+    if ln > 1:
+        for n in range(1, ln):
+            sum = sum + int(result[n])
+            print(sum)
