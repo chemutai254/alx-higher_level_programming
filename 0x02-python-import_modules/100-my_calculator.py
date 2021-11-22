@@ -5,10 +5,11 @@ import sys
 if __name__ == '__main__':
     argv = sys.argv[1:]
     argv_count = len(argv)
-    if argv_count != 3:
+    operators = ["+", "-", "*", "/"]
+    if argv_count is not 3:
         print('Usage: ./100-my_calculator.py <a> <operator> <b>')
         exit(1)
-    elif sys.argv[2] != ["+", "-", "*", "/"]:
+    elif sys.argv[2] is not operators:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
     else:
