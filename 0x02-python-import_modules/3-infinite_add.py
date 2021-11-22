@@ -3,6 +3,6 @@ def sum(*args):
     result = 0
 
     for arg in args:
-        result = result + arg
+        result = int(result + arg)
 
         return result
