@@ -5,4 +5,4 @@ def print_reversed_list_integer(my_list=[]):
         remainder = my_list % 10
         test_num = (test_num * 10) + remainder
         my_list = my_list // 10
-        print('The reverse number is: {}'.format(test_num))
+        print('{:d}'.format(test_num))
