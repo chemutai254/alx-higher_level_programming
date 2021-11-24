@@ -1,7 +1,4 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    new_str = ''
-    for n in my_string:
-        if n != 'C' and n != 'c':
-            new_str += n
-            return new_str
+    my_string = ''.join(char for char in my_string if char not in 'Cc')
+    return my_string
