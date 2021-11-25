@@ -1,5 +1,3 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    import numpy as np
-    n = np.matrix([])
-    print(n)
+    return [[n * n for n in row] for row in matrix]
