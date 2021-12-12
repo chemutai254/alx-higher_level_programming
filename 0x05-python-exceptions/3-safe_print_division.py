@@ -6,7 +6,7 @@ def safe_print_division(a, b):
 		pass
 	finally:
 	    if result != 0:
-	        print('{:d}'.format(result))
+	        print('Result equals: {}'.format(result))
 	        return result
 	    else:
 		print('Check the type of data')
