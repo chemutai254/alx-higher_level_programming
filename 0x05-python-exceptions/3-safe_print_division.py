@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 def safe_print_division(a, b):
-	result = a / b
 	try:
-	    print('{:d}'.format(a, b, result))
-	    return result
-	except (ValueError, TypeError):
-	    print('Check the type of data')
-	    return Null
+	    result = a / b
+	except ZeroDivisionError:
+		pass
+	finally:
+	    if result != 0:
+	        print('{:d}'.format(result))
+	        return result
+	    else:
+		print('Check the type of data')
+	        return Null
