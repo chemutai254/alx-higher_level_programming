@@ -1,3 +1,13 @@
 #!usr/bin/python3
-class Rectangle(object):
+""" File name : 0-rectangle.py
+    Simple rectangle : an empty class Rectangle that defines a rectangle
+    It is not allowed to import any module
+"""
+
+
+class Rectangle:
     pass
+
+
+new_rect = Rectangle()
+print(new_rect)
