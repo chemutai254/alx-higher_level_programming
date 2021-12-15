@@ -6,4 +6,5 @@
 
 
 class Rectangle(object):
+    """Defines new class"""
     pass
