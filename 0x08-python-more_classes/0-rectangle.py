@@ -5,9 +5,5 @@
 """
 
 
-class Rectangle:
+class Rectangle(object):
     pass
-
-
-new_rect = Rectangle()
-print(new_rect)
