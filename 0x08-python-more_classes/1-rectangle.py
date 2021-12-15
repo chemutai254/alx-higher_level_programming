@@ -4,13 +4,32 @@
 
 
 class Rectangle(object):
-    def __init__(self, width, height):
+    """Defines new class"""
+    def __init__(self, width=0, height=0):
+        """initializing attributes"""
         self.width = width
         self.height = height
-        try:
-            if width != integer:
-                if width < 0:
-                    except ValueError:
-                        print('width must be an integer')
-                    except TypeError:
-                        print('width must be >= 0')
+
+        def width(self):
+            """property for attribute width"""
+            return self.__width
+
+        def width(self, value):
+            """setting values to width"""
+            if not isinstance(value, int):
+                raise TypeError('width must be an integer')
+            if value < 0:
+                raise ValueError('width must be >= 0')
+            self.__width = value
+
+            def height(self):
+                """property for attribute height"""
+                return self.__height
+
+            def height(self, value):
+                """setting values to width"""
+                if not isinstance(value, int):
+                    raise TypeError('height must be an integer')
+                if value < 0:
+                    raise ValueError('height must be >= 0')
+                self.__height = value
