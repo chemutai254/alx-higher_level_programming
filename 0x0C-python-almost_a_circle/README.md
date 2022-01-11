@@ -14,3 +14,4 @@
 		Args and Kwargs
 		Serialization/Deserialization
 		JSON
+	All files, classes and methods and unit tested and PEP 8 validated
