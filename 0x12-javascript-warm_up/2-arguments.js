@@ -1,9 +1,9 @@
 #!/usr/bin/node
 let str;
-if (process.argv.length <= 0)
+if (process.argv.length < 1)
 	str = 'No argument';
-else if (process.argv.length == 1)
+else if (process.argv.length === 1)
 	str = 'Argument found';
-else if (process.argv.length > 0)
+else
 	str = 'Arguments found';
 console.log(str);
