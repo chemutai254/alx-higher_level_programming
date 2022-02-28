@@ -1,2 +1,2 @@
 #!/usr/bin/node
-console.log(process.argv[5] || 'Nor argument');
+console.log(process.argv[5] || 'No argument');
