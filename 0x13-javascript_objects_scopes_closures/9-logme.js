@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const count = 0;
 exports.logMe = function (item) {
-  console.log('${count++}: ${item}');
+  this.times = (this.times || 0) + 1;
+  console.log(`${this.times - 1}: ${item}`);
 };
