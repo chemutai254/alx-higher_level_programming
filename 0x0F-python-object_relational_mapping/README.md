@@ -2,7 +2,7 @@
 - This module utilizes MySQLdb to connect to a MySQL database and execute SQL queries
 - Module SQLAlchemy will be used: An Object Relational Mapper (ORM)
 ---
-	**Procedure to Install MySQLdb module version 2.0.x**
+Procedure to Install MySQLdb module version 2.0.x
 ## Install MySQL 8.0 on Ubuntu 20.0.4 LTS
 - $ sudo apt update
 - $ sudo apt install mysql-server
