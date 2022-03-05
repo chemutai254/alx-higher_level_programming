@@ -6,10 +6,10 @@ import MySQLdb
 
 if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
-    c = db.cursor()
-    c.execute("SELECT `c`.`id`, `c`.`name`, `s`.`name` \
-                 FROM `cities` as `c` \
+    i = db.cursor()
+    i.execute("SELECT `i`.`id`, `i`.`name`, `s`.`name` \
+                 FROM `cities` as `i` \
                 INNER JOIN `states` as `s` \
-                   ON `c`.`state_id` = `s`.`id` \
-                ORDER BY `c`.`id`")
-    [print(city) for city in c.fetchall()]
+                   ON `i`.`state_id` = `s`.`id` \
+                ORDER BY `i`.`id`")
+    [print(city) for city in i.fetchall()]
