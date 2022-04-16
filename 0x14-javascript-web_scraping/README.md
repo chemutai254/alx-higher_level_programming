@@ -15,7 +15,7 @@
 - $ export NODE_PATH=/usr/lib/node_modules
 ---
 
-** Working with JSON **
+*** Working with JSON ***
 - JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.
 - JSON exists as a string. It is useful during data transmission across network.
 - <b> JSON Structure </b>
