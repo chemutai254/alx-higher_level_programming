@@ -1,21 +1,21 @@
 ## 0x14. JavaScript - Web scraping
 ---
 
-# Node 10 Installation commands
+### Node 10 Installation commands
 - $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 - $ sudo apt-get install -y nodejs
 ---
 
-# Semi-standard Installation
+### Semi-standard Installation
 - $ sudo npm install semistandard --global
 ---
 
-# Request modlue Installation and use it
+### Request modlue Installation and use it
 - $ sudo npm install request --global
 - $ export NODE_PATH=/usr/lib/node_modules
 ---
 
-*** Working with JSON ***
+### Working with JSON
 - JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.
 - JSON exists as a string. It is useful during data transmission across network.
 - <b> JSON Structure </b>
