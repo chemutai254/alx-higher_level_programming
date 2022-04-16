@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import requests
+import request
 
-response = requests.get(url)
+response = request.get(url)
 print('code: ', response.status_code)
