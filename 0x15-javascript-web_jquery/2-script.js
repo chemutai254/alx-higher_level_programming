@@ -9,11 +9,12 @@
         <h1>First HTML page</h1>
       </div>
     </header>
+    <div id='red_header'>Red header</div>
     <footer>
-      Holberton School - 2022
+      Holberton School - 2017
     </footer>
-    <script type='text/javascript' src='1-script.js'>
-      $(h1).html('<span style='color:red' />')
+    <script type='text/javascript' src='2-script.js'>
+      $("#red_header").click(function() <span style='color:red' />);
     </script>
   </body>
 </html>;
